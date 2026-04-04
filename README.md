@@ -1,16 +1,14 @@
-## Hi there 👋
+# Hi, I'm Torrey 👋🏼
+                                                                                                                                                                                                    
+I'm a software engineer based in Pennsylvania. I build developer tools for .NET under the [Datafication](https://github.com/DataficationSDK) organization.                                                                                                                                                                                                                                         
+### What I'm building                                                                                                                                                                              
+                                                            
+- **[Verso](https://github.com/DataficationSDK/Verso)** -- An extensible interactive notebook platform for .NET. Pluggable language kernels, custom cell types, theming, and switchable layout engines. Runs in VS Code and the browser. Built as a community response to the deprecation of Polyglot Notebooks and .NET Interactive.
+                                                                                                                                                                                                     
+- **[Motus](https://github.com/DataficationSDK/Motus)** -- A web automation and testing framework for .NET that communicates directly with browsers over WebSocket using CDP and WebDriver BiDi. No Node.js sidecar, no external driver binaries. Includes Roslyn analyzers, a visual test runner, and Page Object Model code generation.
+                                                                                                                                                                                                    
+- **[Datafication](https://github.com/DataficationSDK/Datafication)** -- A data platform SDK for loading, transforming, storing, and serving data entirely within .NET. Columnar storage, query API, vector search, ML integration through ONNX, and connectors for CSV, JSON, Excel, Parquet, and more.
+                                                                                                                                                                                                    
+### Design philosophy                                     
 
-<!--
-**TorreyBetts/TorreyBetts** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Every built-in feature in Verso and Motus is registered through the same public interfaces available to third party developers. If the framework can do it, so can your plugin.
