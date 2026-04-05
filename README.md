@@ -9,6 +9,8 @@ I'm a software engineer based in Pennsylvania with more than 20 years of experie
                                                                                                                                                                                                     
 - **[Datafication](https://github.com/DataficationSDK/Datafication)** -- A data platform SDK for loading, transforming, storing, and serving data entirely within .NET. Columnar storage, query API, vector search, ML integration through ONNX, and connectors for CSV, JSON, Excel, Parquet, and more.
                                                                                                                                                                                                     
-### Design philosophy                                     
+### Design philosophy
 
-Every built-in feature in Verso and Motus is registered through the same public interfaces available to third party developers. If the framework can do it, so can your plugin.
+> Great architecture is not just built to last; it is built to transform.
+
+I design tools so their core ideas can grow beyond the original implementation. Every built-in feature in Verso and Motus is registered through the same public interfaces available to third party developers. If the framework can do it, so can your plugin.
